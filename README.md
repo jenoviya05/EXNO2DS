@@ -23,7 +23,7 @@ STEP 7: Use cross tabulation method to quantitatively analyze the relationship b
 STEP 8: Use heatmap method of representation to show relationships between two variables, one plotted on each axis.
 
 ## CODING AND OUTPUT
-    
+~~~    
 # ----------------------------------------
 # Step 1: Import Required Packages
 # ----------------------------------------
@@ -145,6 +145,6 @@ plt.show()
 
 <img width="899" height="736" alt="Screenshot 2026-03-09 112242" src="https://github.com/user-attachments/assets/64094582-9694-4d43-9af9-8cabddfddb8d" />
 
-
+~~~
 # RESULT
     Thus we have performed Exploratory Data Analysis on the given data set.
