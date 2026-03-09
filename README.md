@@ -44,7 +44,7 @@ print(data.info())
 print(data.describe())
 ~~~
 <img width="939" height="761" alt="Screenshot 2026-03-09 111518" src="https://github.com/user-attachments/assets/aadf7017-3908-448f-88fc-59369322e4e7" />
-
+~~~
 # ----------------------------------------
 # Step 3: Data Cleansing - Handle Missing Values
 # ----------------------------------------
@@ -52,7 +52,7 @@ for column in data.columns:
     if data[column].dtype == 'object':
         data[column] = data[column].fillna(data[column].mode()[0])   # Mode for categorical
 print("\nMissing values handled successfully.\n")
-
+~~~
 <img width="490" height="123" alt="Screenshot 2026-03-09 111608" src="https://github.com/user-attachments/assets/3d965dfe-421f-426d-a8a6-6664281ab42e" />
 ~~~
 # ----------------------------------------
